@@ -1,0 +1,43 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ansible
+*.retry
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
