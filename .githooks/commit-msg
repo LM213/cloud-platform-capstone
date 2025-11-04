@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Simple conventional commits guard (very lenient)
+commit_msg_file="$1"
+grep -E '^(feat|fix|chore|docs|refactor)(\([a-z0-9_-]+\))?: .{1,}' "$commit_msg_file" >/dev/null || {
+  echo "❌ Commit message must follow Conventional Commits (e.g., feat(iac): add vpc)."
+  exit 1
+}

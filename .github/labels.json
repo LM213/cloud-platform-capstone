@@ -1,0 +1,10 @@
+[
+  {"name":"type:feat","color":"1f883d"},
+  {"name":"type:fix","color":"d73a4a"},
+  {"name":"type:chore","color":"6e7781"},
+  {"name":"type:docs","color":"0e8a16"},
+  {"name":"area:iac","color":"5319e7"},
+  {"name":"area:eks","color":"5319e7"},
+  {"name":"area:ci","color":"0366d6"},
+  {"name":"security","color":"b60205"}
+]

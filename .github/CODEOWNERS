@@ -1,0 +1,7 @@
+# Require review from you (adjust GitHub handle if needed)
+* @LM213
+
+# Optional granularity
+/infra/ @LM213
+/helm/ @LM213
+/security/ @LM213
